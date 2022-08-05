@@ -1,0 +1,13 @@
+<?php
+if($page=="create-book"){
+	$found=include("views/pages/ui/book/create_book.php");
+}elseif($page=="edit-book"){
+	$found=include("views/pages/ui/book/edit_book.php");
+}elseif($page=="manage-book"){
+	$found=include("views/pages/ui/book/manage_book.php");
+}elseif($page=="details-book"){
+	$found=include("views/pages/ui/book/details_book.php");
+}elseif($page=="view-book"){
+	$found=include("views/pages/ui/book/view_book.php");
+}
+?>

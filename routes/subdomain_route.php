@@ -1,0 +1,13 @@
+<?php
+if($page=="create-subdomain"){
+	$found=include("views/pages/ui/subdomain/create_subdomain.php");
+}elseif($page=="edit-subdomain"){
+	$found=include("views/pages/ui/subdomain/edit_subdomain.php");
+}elseif($page=="manage-subdomain"){
+	$found=include("views/pages/ui/subdomain/manage_subdomain.php");
+}elseif($page=="details-subdomain"){
+	$found=include("views/pages/ui/subdomain/details_subdomain.php");
+}elseif($page=="view-subdomain"){
+	$found=include("views/pages/ui/subdomain/view_subdomain.php");
+}
+?>

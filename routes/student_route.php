@@ -1,0 +1,13 @@
+<?php
+if($page=="create-student"){
+	$found=include("views/pages/ui/student/create_student.php");
+}elseif($page=="edit-student"){
+	$found=include("views/pages/ui/student/edit_student.php");
+}elseif($page=="manage-student"){
+	$found=include("views/pages/ui/student/manage_student.php");
+}elseif($page=="details-student"){
+	$found=include("views/pages/ui/student/details_student.php");
+}elseif($page=="view-student"){
+	$found=include("views/pages/ui/student/view_student.php");
+}
+?>

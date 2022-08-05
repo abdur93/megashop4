@@ -1,0 +1,13 @@
+<?php
+if($page=="create-domain"){
+	$found=include("views/pages/ui/domain/create_domain.php");
+}elseif($page=="edit-domain"){
+	$found=include("views/pages/ui/domain/edit_domain.php");
+}elseif($page=="manage-domain"){
+	$found=include("views/pages/ui/domain/manage_domain.php");
+}elseif($page=="details-domain"){
+	$found=include("views/pages/ui/domain/details_domain.php");
+}elseif($page=="view-domain"){
+	$found=include("views/pages/ui/domain/view_domain.php");
+}
+?>

@@ -1,0 +1,13 @@
+<?php
+if($page=="create-purchasedetail"){
+	$found=include("views/pages/ui/purchasedetail/create_purchasedetail.php");
+}elseif($page=="edit-purchasedetail"){
+	$found=include("views/pages/ui/purchasedetail/edit_purchasedetail.php");
+}elseif($page=="purchase_details"){
+	$found=include("views/pages/ui/purchasedetail/manage_purchasedetail.php");
+}elseif($page=="details-purchasedetail"){
+	$found=include("views/pages/ui/purchasedetail/details_purchasedetail.php");
+}elseif($page=="view-purchasedetail"){
+	$found=include("views/pages/ui/purchasedetail/view_purchasedetail.php");
+}
+?>

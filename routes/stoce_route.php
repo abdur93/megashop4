@@ -1,0 +1,13 @@
+<?php
+if($page=="create-stoce"){
+	$found=include("views/pages/ui/stoce/create_stoce.php");
+}elseif($page=="edit-stoce"){
+	$found=include("views/pages/ui/stoce/edit_stoce.php");
+}elseif($page=="stoces"){
+	$found=include("views/pages/ui/stoce/manage_stoce.php");
+}elseif($page=="details-stoce"){
+	$found=include("views/pages/ui/stoce/details_stoce.php");
+}elseif($page=="view-stoce"){
+	$found=include("views/pages/ui/stoce/view_stoce.php");
+}
+?>
